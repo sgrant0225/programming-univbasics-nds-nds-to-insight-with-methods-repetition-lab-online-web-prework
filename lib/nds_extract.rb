@@ -40,8 +40,9 @@ total = 0
 row_index = 0 
 while row_index < source.length do 
   total += directors_totals(source)
-  
+  row_index += 1
 end
+total
   # Write this implementation
   #
   # Should use methods:
