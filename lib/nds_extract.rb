@@ -36,7 +36,8 @@ list_of_directors
 end
 
 def total_gross(source)
-  
+  total = 0 
+  row_index = 0
 end
   # Write this implementation
   #
