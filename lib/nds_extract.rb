@@ -26,6 +26,13 @@ end
 
 def list_of_directors(source)
   # Write this implementation
+list_of_directors = []
+row_index = 0 
+while row_index < source.size do
+list_of_directors.push(source[row_index][:name])
+row_index += 1
+end
+list_of_directors
 end
 
 def total_gross(source)
