@@ -43,6 +43,7 @@ while row_index < source.length do
   row_index += 1
 end
 total
+end
   # Write this implementation
   #
   # Should use methods:
